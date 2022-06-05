@@ -277,7 +277,6 @@ p
 /* start newsletter */
 #newsletter
     {
-        background: url('../images/newsletter-bg.jpg') center center;
         background-size: cover;
         background-repeat: no-repeat;
         color: #ffffff;
@@ -398,6 +397,12 @@ p
 /* end pricing */
 
 /* start portfolio */
+#portfolio h3
+    {
+        font-size: 40px;
+        color: #93ca3a;
+        padding-bottom: 10px;
+    }
 #portfolio h2
     {
         padding-bottom: 30px;
@@ -501,13 +506,12 @@ p
 /* start contact */
 #contact
     {
-        background: url('../images/contact-bg.jpg');
         background-size: cover;
         background-repeat: no-repeat;
-        color: #ffffff;
     }
 #contact h3
     {
+        color: #66AF33;
         font-weight: bold;
         padding-bottom: 20px;
     }
@@ -550,15 +554,6 @@ p
   color: #666;
 }
 /* end contact */
-
-/* start google map */
-#map-canvas
-  {
-    border: none;
-    width: 100%;
-    height: 320px;
-  }
-/* end google map */
 
 /* start footer */
 footer
